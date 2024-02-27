@@ -7,8 +7,8 @@ import plotly.express as px
 import plotly.graph_objects as go
 import dash_bootstrap_components as dbc
 
-# Load the CSV data into a DataFrame
-data_path ='/Users/carloscarvalho/PycharmProjects/Usina_Solar_Dashboard/first_dashboard.csv'  # '/home/loscar/mysite//first_dashboard.csv' # '/Users/carloscarvalho/Downloads/first_dashboard.csv'
+# Load the CSV data into a DataFrame   ------------- Trocar o path qdo subir para o webserver
+data_path = '/Users/carloscarvalho/PycharmProjects/Usina_Solar_Dashboard/first_dashboard.csv'#  https://raw.githubusercontent.com/loscarlo/solar_pp_monitor/main/first_dashboard.csv'
 df = pd.read_csv(data_path)
 
 # Convert the 'data' column to datetime
@@ -123,8 +123,8 @@ app.layout = dbc.Container([
                 dbc.Card(
                     dbc.CardBody(
                         [
-                        html.H5("Ju & Rafael", className="text-nowrap"),
-                        html.H4(id='estoque-cred-unid-1'),
+                        html.H4("Ju & Rafael", className="text-nowrap"),
+                        html.H3(id='estoque-cred-unid-1'),
                         html.H5(id='estoque-duracao-unid-1')
                         ], className="border-start border-primary border-5"
                     ),
