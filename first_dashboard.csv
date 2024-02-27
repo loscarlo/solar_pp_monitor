@@ -1,0 +1,111 @@
+data,mes,ano,unidade,tipo_unidade,energia_gerada,consumo,saldo_credito,energia_inj,valor_pago,custo_kWh,cota_energia,credito_mes,neg_consumo
+27/11/2021,novembro,2021,Valdione,consumidora,,274,0,174,"R$ 286,44","R$ 1,29",35%,0,-274
+27/11/2021,novembro,2021,Ju&Rafael,consumidora,,250,24,150,"R$ 147,39","R$ 1,29",35%,24,-250
+27/11/2021,novembro,2021,Luciana,consumidora,,217,18,117,"R$ 247,67","R$ 1,29",30%,18,-217
+27/11/2021,novembro,2021,Carlos,consumidora,,230,0,130,"R$ 140,93","R$ 1,29",0,0,-230
+27/12/2021,dezembro,2021,Valdione,consumidora,,0,562,0,"R$ 106,34","R$ 1,29",35%,562,0
+27/12/2021,dezembro,2021,Ju&Rafael,consumidora,,400,186,300,"R$ 221,53","R$ 1,29",35%,162,-400
+27/12/2021,dezembro,2021,Luciana,consumidora,,520,18,420,"R$ 251,48","R$ 1,29",30%,0,-520
+27/12/2021,dezembro,2021,Carlos,consumidora,,319,0,219,"R$ 204,79","R$ 1,29",0,0,-319
+27/01/2022,janeiro,2022,Valdione,consumidora,,0,987,0,"R$ 105,30","R$ 1,28",35%,425,0
+27/01/2022,janeiro,2022,Ju&Rafael,consumidora,,430,186,330,"R$ 229,42","R$ 1,28",35%,0,-430
+27/01/2022,janeiro,2022,Luciana,consumidora,,684,0,584,"R$ 493,65","R$ 1,28",30%,-18,-684
+27/01/2022,janeiro,2022,Carlos,consumidora,,346,0,246,"R$ 208,36","R$ 1,28",0,0,-346
+27/02/2022,fevereiro,2022,Valdione,consumidora,,155,1190,55,"R$ 130,19","R$ 1,30",35%,203,-155
+27/02/2022,fevereiro,2022,Ju&Rafael,consumidora,,368,186,268,"R$ 215,75","R$ 1,30",35%,0,-368
+27/02/2022,fevereiro,2022,Luciana,consumidora,,758,0,658,"R$ 679,13","R$ 1,30",30%,0,-758
+27/02/2022,fevereiro,2022,Carlos,consumidora,,343,0,243,"R$ 212,98","R$ 1,30",0,0,-343
+27/03/2022,março,2022,Valdione,consumidora,,238,1538,138,"R$ 146,24","R$ 1,29",35%,348,-238
+27/03/2022,março,2022,Ju&Rafael,consumidora,,563,209,463,"R$ 283,07","R$ 1,29",35%,23,-563
+27/03/2022,março,2022,Luciana,consumidora,,721,0,621,"R$ 412,84","R$ 1,29",30%,0,-721
+27/03/2022,março,2022,Carlos,consumidora,,397,0,297,"R$ 228,81","R$ 1,29",0,0,-397
+27/04/2022,abril,2023,Valdione,consumidora,,273,1588,173,"R$ 155,15","R$ 1,17",35%,50,-273
+27/04/2022,abril,2023,Ju&Rafael,consumidora,,425,207,325,"R$ 227,26","R$ 1,17",35%,-2,-425
+27/04/2022,abril,2023,Luciana,consumidora,,227,49,127,"R$ 155,06","R$ 1,17",30%,49,-227
+27/04/2022,abril,2023,Carlos,consumidora,,310,0,210,"R$ 216,18","R$ 1,17",0,0,-310
+27/05/2022,maio,2022,Valdione,consumidora,,227,1588,127,"R$ 130,34","R$ 1,22",35%,0,-227
+27/05/2022,maio,2022,Ju&Rafael,consumidora,,309,197,209,"R$ 174,29","R$ 1,22",35%,-10,-309
+27/05/2022,maio,2022,Luciana,consumidora,,946,0,846,"R$ 968,40","R$ 1,22",30%,-49,-946
+27/05/2022,maio,2022,Carlos,consumidora,,397,0,297,"R$ 221,65","R$ 1,22",0,0,-397
+27/06/2022,junho,2022,Valdione,consumidora,,219,1584,119,"R$ 126,68","R$ 1,20",35%,-4,-219
+27/06/2022,junho,2022,Ju&Rafael,consumidora,,271,141,171,"R$ 0,00","R$ 1,20",35%,-56,-271
+27/06/2022,junho,2022,Luciana,consumidora,,350,0,250,"R$ 341,27","R$ 1,20",30%,0,-350
+27/06/2022,junho,2022,Carlos,consumidora,,443,0,343,"R$ 234,11","R$ 1,20",0,0,-443
+27/07/2022,julho,2022,Valdione,consumidora,,176,1620,76,"R$ 128,70","R$ 1,02",35%,36,-176
+27/07/2022,julho,2022,Ju&Rafael,consumidora,,267,141,167,"R$ 0,00","R$ 1,02",35%,0,-267
+27/07/2022,julho,2022,Luciana,consumidora,,354,0,254,"R$ 212,87","R$ 1,02",30%,0,-354
+27/07/2022,julho,2022,Carlos,consumidora,,375,0,275,"R$ 158,05","R$ 1,02",0,0,-375
+27/08/2022,agosto,2022,Valdione,consumidora,,258,1620,158,"R$ 122,99","R$ 1,03",35%,0,-258
+27/08/2022,agosto,2022,Ju&Rafael,consumidora,,262,141,162,"R$ 108,94","R$ 1,03",35%,0,-262
+27/08/2022,agosto,2022,Luciana,consumidora,,334,0,234,"R$ 210,47","R$ 1,03",30%,0,-334
+27/08/2022,agosto,2022,Carlos,consumidora,,405,0,305,"R$ 164,39","R$ 1,03",0,0,-405
+27/09/2022,setembro,2022,Valdione,consumidora,,192,1711,92,"R$ 129,71","R$ 1,03",35%,91,-192
+27/09/2022,setembro,2022,Ju&Rafael,consumidora,,250,174,150,"R$ 139,27","R$ 1,03",35%,33,-250
+27/09/2022,setembro,2022,Luciana,consumidora,,340,0,240,"R$ 143,33","R$ 1,03",30%,0,-340
+27/09/2022,setembro,2022,Carlos,consumidora,,423,0,323,"R$ 165,92","R$ 1,03",0,0,-423
+27/10/2022,outubro,2022,Valdione,consumidora,,239,1711,139,"R$ 135,58","R$ 1,03",35%,0,-239
+27/10/2022,outubro,2022,Ju&Rafael,consumidora,,282,174,182,"R$ 135,59","R$ 1,03",35%,0,-282
+27/10/2022,outubro,2022,Luciana,consumidora,,365,0,265,"R$ 227,41","R$ 1,03",30%,0,-365
+27/10/2022,outubro,2022,Carlos,consumidora,,384,0,284,"R$ 157,76","R$ 1,03",0,0,-384
+27/11/2022,novembro,2022,Valdione,consumidora,,216,2066,116,"R$ 136,63","R$ 1,03",35%,355,-216
+27/11/2022,novembro,2022,Ju&Rafael,consumidora,,370,375,270,"R$ 156,59","R$ 1,03",35%,201,-370
+27/11/2022,novembro,2022,Luciana,consumidora,,471,18,371,"R$ 171,34","R$ 1,03",30%,18,-471
+27/11/2022,novembro,2022,Carlos,consumidora,,125,0,25,"R$ 121,38","R$ 1,03",0,0,-125
+27/12/2022,dezembro,2022,Valdione,consumidora,,253,2282,153,"R$ 136,85","R$ 1,02",35%,216,-253
+27/12/2022,dezembro,2022,Ju&Rafael,consumidora,,419,425,319,"R$ 162,44","R$ 1,02",35%,50,-419
+27/12/2022,dezembro,2022,Luciana,consumidora,,676,0,576,"R$ 330,95","R$ 1,02",30%,-18,-676
+27/12/2022,dezembro,2022,Carlos,consumidora,,182,0,82,"R$ 125,51","R$ 1,02",0,0,-182
+27/01/2023,janeiro,2023,Valdione,consumidora,,325,2330,225,"R$ 143,97","R$ 0,97",25%,48,-325
+27/01/2023,janeiro,2023,Ju&Rafael,consumidora,,400,548,300,"R$ 150,87","R$ 0,97",35%,123,-400
+27/01/2023,janeiro,2023,Luciana,consumidora,,446,151,346,"R$ 160,09","R$ 0,97",40%,151,-446
+27/01/2023,janeiro,2023,Carlos,consumidora,,143,0,43,"R$ 73,90","R$ 0,97",0,0,-143
+27/02/2023,fevereiro,2023,Valdione,consumidora,,273,2515,173,"R$ 132,38","R$ 0,95",25%,185,-273
+27/02/2023,fevereiro,2023,Ju&Rafael,consumidora,,527,661,427,"R$ 170,14","R$ 0,95",35%,113,-527
+27/02/2023,fevereiro,2023,Luciana,consumidora,,873,110,773,"R$ 195,74","R$ 0,95",40%,-41,-873
+27/02/2023,fevereiro,2023,Carlos,consumidora,,112,0,12,"R$ 111,28","R$ 0,95",0,0,-112
+27/03/2023,março,2023,Valdione,consumidora,,273,2515,173,"R$ 133,86","R$ 0,96",25%,0,-273
+27/03/2023,março,2023,Ju&Rafael,consumidora,,536,585,436,"R$ 165,11","R$ 0,96",35%,-76,-536
+27/03/2023,março,2023,Luciana,consumidora,,913,0,813,"R$ 451,90","R$ 0,96",40%,-110,-913
+27/03/2023,março,2023,Carlos,consumidora,,308,0,208,"R$ 144,03","R$ 0,96",0,0,-308
+27/04/2023,abril,2023,Valdione,consumidora,,181,2824,81,"R$ 130,58","R$ 1,10",25%,309,-181
+27/04/2023,abril,2023,Ju&Rafael,consumidora,,341,930,241,"R$ 165,17","R$ 1,10",35%,345,-341
+27/04/2023,abril,2023,Luciana,consumidora,,719,66,619,"R$ 230,73","R$ 1,10",40%,66,-719
+27/04/2023,abril,2023,Carlos,consumidora,,0,0,0,"R$ 104,40","R$ 1,10",0,0,0
+27/05/2023,maio,2023,Valdione,consumidora,,195,2939,95,"R$ 131,59","R$ 1,09",25%,115,-195
+27/05/2023,maio,2023,Ju&Rafael,consumidora,,282,1082,182,"R$ 144,13","R$ 1,09",35%,152,-282
+27/05/2023,maio,2023,Luciana,consumidora,,589,66,489,"R$ 199,34","R$ 1,09",40%,0,-589
+27/05/2023,maio,2023,Carlos,consumidora,,0,0,0,"R$ 103,92","R$ 1,09",0,0,0
+27/06/2023,junho,2023,Valdione,consumidora,,180,4190,80,"R$ 131,52","R$ 1,11",25%,1251,-180
+27/06/2023,junho,2023,Ju&Rafael,consumidora,,255,2051,155,"R$ 142,99","R$ 1,11",35%,969,-255
+27/06/2023,junho,2023,Luciana,consumidora,,433,466,333,"R$ 175,02","R$ 1,11",40%,400,-433
+27/06/2023,junho,2023,Carlos,consumidora,,4,1500,0,"R$ 86,19","R$ 1,11",0,1500,-4
+27/07/2023,julho,2023,Valdione,consumidora,,190,4346,90,"R$ 117,93","R$ 1,10",25%,156,-190
+27/07/2023,julho,2023,Ju&Rafael,consumidora,,294,2201,194,"R$ 132,28","R$ 1,10",35%,150,-294
+27/07/2023,julho,2023,Luciana,consumidora,,456,504,356,"R$ 171,44","R$ 1,10",40%,38,-456
+27/07/2023,julho,2023,Carlos,consumidora,,78,0,0,"R$ 100,29","R$ 1,10",0,-1500,-78
+27/08/2023,agosto,2023,Valdione,consumidora,,201,4534,101,"R$ 127,55","R$ 1,10",25%,188,-201
+27/08/2023,agosto,2023,Ju&Rafael,consumidora,,269,2437,169,"R$ 134,23","R$ 1,10",35%,236,-269
+27/08/2023,agosto,2023,Luciana,consumidora,,370,696,270,"R$ 162,23","R$ 1,10",40%,192,-370
+27/08/2023,agosto,2023,Carlos,consumidora,,98,0,0,"R$ 104,72","R$ 1,10",0,0,-98
+27/11/2021,novembro,2021,Carlos,geradora,1013,,,,,,,,
+27/12/2021,dezembro,2021,Carlos,geradora,1924,,,,,,,,
+27/01/2022,janeiro,2022,Carlos,geradora,1562,,,,,,,,
+27/02/2022,fevereiro,2022,Carlos,geradora,1364,,,,,,,,
+27/03/2022,março,2022,Carlos,geradora,2073,,,,,,,,
+27/04/2022,abril,2022,Carlos,geradora,1231,,,,,,,,
+27/05/2022,maio,2022,Carlos,geradora,966,,,,,,,,
+27/06/2022,junho,2022,Carlos,geradora,773,,,,,,,,
+27/07/2022,julho,2022,Carlos,geradora,981,,,,,,,,
+27/08/2022,agosto,2022,Carlos,geradora,943,,,,,,,,
+27/09/2022,setembro,2022,Carlos,geradora,1231,,,,,,,,
+27/10/2022,outubro,2022,Carlos,geradora,977,,,,,,,,
+27/11/2022,novembro,2022,Carlos,geradora,1756,,,,,,,,
+27/12/2022,dezembro,2022,Carlos,geradora,1522,,,,,,,,
+27/01/2023,janeiro,2023,Carlos,geradora,1636,,,,,,,,
+27/02/2023,fevereiro,2023,Carlos,geradora,1942,,,,,,,,
+27/03/2023,março,2023,Carlos,geradora,1335,,,,,,,,
+27/04/2023,abril,2023,Carlos,geradora,1962,,,,,,,,
+27/05/2023,maio,2023,Carlos,geradora,1239,,,,,,,,
+27/06/2023,junho,2023,Carlos,geradora,929,,,,,,,,
+27/07/2023,julho,2023,Carlos,geradora,985,,,,,,,,
+27/08/2023,agosto,2023,Carlos,geradora,1155,,,,,,,,
