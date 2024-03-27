@@ -1,6 +1,6 @@
 import dash
-import dash_core_components as dcc
-import dash_html_components as html
+from dash import dcc
+from dash import html
 from dash.dependencies import Input, Output
 import pandas as pd
 import plotly.express as px
@@ -8,12 +8,12 @@ import plotly.graph_objects as go
 import dash_bootstrap_components as dbc
 
 # Load the CSV data into a DataFrame
-data_path = '/Users/carloscarvalho/Downloads/first_dashboard_colunas_novas_tratado.csv'
-#'/Users/carloscarvalho/Downloads/first_dashboard_colunas_novas_tratado.csv' # '/Users/carloscarvalho/PycharmProjects/Usina_Solar_Dashboard/first_dashboard.csv'  # '/home/loscar/mysite//first_dashboard.csv' # '/Users/carloscarvalho/Downloads/first_dashboard.csv'
+data_path = '/Users/carloscarvalho/PycharmProjects/Usina_Solar_Dashboard/first_dashboard_db.csv'
+# '/Users/carloscarvalho/Downloads/first_dashboard_colunas_novas_tratado copy 3.csv' # '/home/loscar/mysite//first_dashboard_db.csv'
 df = pd.read_csv(data_path)
 
 # Convert the 'data' column to datetime
-df['data'] = pd.to_datetime(df['data'])
+df['data'] = pd.to_datetime(df['data'], dayfirst=True)
 
 # Extract the month and year from the 'data' column
 df['month_year'] = df['data'].dt.to_period('M')
@@ -124,8 +124,8 @@ app.layout = dbc.Container([
                 dbc.Card(
                     dbc.CardBody(
                         [
-                        html.H5("Ju & Rafael", className="text-nowrap"),
-                        html.H4(id='estoque-cred-unid-1'),
+                        html.H4("Ju & Rafael", className="text-nowrap"),
+                        html.H3(id='estoque-cred-unid-1'),
                         html.H5(id='estoque-duracao-unid-1')
                         ], className="border-start border-primary border-5"
                     ),
@@ -390,7 +390,7 @@ def update_charts(start_date, end_date):
 
     # Create the donut chart to display the relationship between 'unidade' and 'credito_mes'
     donut_chart_credito_mes = px.pie(filtered_df, names='unidade', values='credito_mes', title='% Créditos Acumulados por Unidade',
-                                     hole=0.4)
+                                     hole=0.9)
 
     # Create the Gasto_Energia chart to display the relationship between 'data' and 'valor_pago'
     gasto_energia_fig = px.bar(
