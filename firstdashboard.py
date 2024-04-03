@@ -8,7 +8,7 @@ import plotly.graph_objects as go
 import dash_bootstrap_components as dbc
 
 # Load the CSV data into a DataFrame
-data_path = 'https://raw.githubusercontent.com/loscarlo/solar_pp_monitor/main/first_dashboard_db.csv' #'/Users/carloscarvalho/PycharmProjects/Usina_Solar_Dashboard/first_dashboard_db.csv'
+data_path = '/Users/carloscarvalho/PycharmProjects/Usina_Solar_Dashboard/first_dashboard_db.csv' # 'https://raw.githubusercontent.com/loscarlo/solar_pp_monitor/main/first_dashboard_db.csv'
 # '/Users/carloscarvalho/Downloads/first_dashboard_colunas_novas_tratado copy 3.csv' # '/home/loscar/mysite//first_dashboard_db.csv'
 df = pd.read_csv(data_path)
 
@@ -46,14 +46,14 @@ app.layout = dbc.Container([
 
     dbc.Row(
         # Date range filter with custom display format (month and year)
-        dbc.Col(
+        dbc.Col([html.H5('Período:',className='text-center text-primary mb-4'),
             dcc.DatePickerRange(
                 id='date-range',
                 start_date=df['data'].min(),
                 end_date=df['data'].max(),
-                display_format='MMM YYYY',className='text-center text-primary mb-4'
-            ),
-        width=10),
+                display_format='MMM YYYY'
+            )],
+        width=10),className='text-center text-primary mb-4',
     justify='center'),
 
     dbc.Row([
@@ -323,7 +323,6 @@ app.layout = dbc.Container([
     ], justify='around'),
 
 ], fluid=True)
-
 
 # Define a callback to update the combined chart, doughnut chart, average boxes, the new area chart, and the Cards (scoreboards) based on the selected date range
 @app.callback(
