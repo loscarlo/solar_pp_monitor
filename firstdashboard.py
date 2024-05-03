@@ -349,7 +349,7 @@ def update_charts(start_date, end_date):
                                       mode='lines', fill='tozeroy', name='Energia Gerada'))
 
     # Add 'consumo' as bars
-    combined_fig.add_trace(go.Bar(x=filtered_df['data'], y=filtered_df['consumo'], name='Consumo'))
+    combined_fig.add_trace(go.Bar(x=filtered_df['data'], y= filtered_df['consumo'], name='Consumo'))
 
     # Update the layout of the combined chart
     combined_fig.update_layout(title='Consumo vs Energia por Mês'#, xaxis_title='Date'
